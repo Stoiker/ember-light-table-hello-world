@@ -1,0 +1,16 @@
+{{#light-table table as |t|}}
+  {{t.head}}
+  {{#t.body canExpand=true as |body|}}
+
+  {{#body.expanded-row as |row|}}
+    {{row.id}} has only one weakness: <b>{{row.weakness}}</b>
+  {{/body.expanded-row}}
+
+    {{#if table.isEmpty}}
+      {{#body.no-data}}
+        No kopemons are found ;-(
+      {{/body.no-data}}
+    {{/if}}
+
+  {{/t.body}}
+{{/light-table}}
