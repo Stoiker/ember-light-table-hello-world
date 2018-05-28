@@ -159,6 +159,7 @@ Replace the contents of app/templates/encyclopedia.hbs with:
 ```
 and visit your app. The result:  
 ![Table_1](https://github.com/Stoiker/ember-light-table-hello-world/blob/master/img/table_1.png "Initiated ember-light-table without content")
+
 As expected the table is empty, but the columns are shown.
 (As an exercise to the reader: Remove the header from the table and check the result.)
 
