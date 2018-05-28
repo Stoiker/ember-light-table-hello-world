@@ -1,4 +1,4 @@
-A small *hello-world* introductionary tutorial for the [*ember-light-table*]((http://offirgolan.github.io/ember-light-table/) addon
+A small *hello-world* introductionary tutorial for the [ember-light-table]((http://offirgolan.github.io/ember-light-table/) addon
 ## Introduction
 Ember-light-table is a great tool for creating nice tables in emberjs.
 Unfortunately people, myself included, seem to struggle at the beginning and a little
@@ -180,6 +180,7 @@ To show a nice message, alter your table template with the following:
 
 It is that easy. Recheck your app!
 ![Table_2]( https://github.com/Stoiker/ember-light-table-hello-world/blob/master/img/table_2.png "Initiated ember-light-table without content but an empty-data message.")
+
 Time for **real** data!
 
 #### Populate your model:
@@ -222,6 +223,7 @@ Of course not, we need to parse the model to our component
 Recheck! Congratulations, you populated your first ember-ligth-table! It should look
 like this:
 ![Table_3]( https://github.com/Stoiker/ember-light-table-hello-world/blob/master/img/table_3.png "Initiated ember-light-table with content")
+
 Great, but we are missing the images!
 
 #### Include an image column:
