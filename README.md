@@ -69,7 +69,7 @@ and update the template templates/encyclopedia.hbs
 ```
 You can now visit your new router under: http://localhost:4200/encyclopedia
 and should see:
-[route_example]( ./img/route.png "Route result without table")
+![route_example]( https://github.com/Stoiker/ember-light-table-hello-world/blob/master/img/route.png "Route result without table")
 
 ### First steps with ember-light-table
 #### Install the addon:
@@ -158,7 +158,7 @@ Replace the contents of app/templates/encyclopedia.hbs with:
 {{kopemon-table}}
 ```
 and visit your app. The result:
-[Table_1](./img/table_1.png "Initiated ember-light-table without content")
+![Table_1](https://github.com/Stoiker/ember-light-table-hello-world/blob/master/img/table_1.png"Initiated ember-light-table without content")
 As expected the table is empty, but the columns are shown.
 (As an exercise to the reader: Remove the header from the table and check the result.)
 
@@ -179,7 +179,7 @@ To show a nice message, alter your table template with the following:
 ```
 
 It is that easy. Recheck your app!
-[Table_2]( ./img//table_2.png "Initiated ember-light-table without content but an empty-data message.")
+![Table_2]( https://github.com/Stoiker/ember-light-table-hello-world/blob/master/img/table_2.png "Initiated ember-light-table without content but an empty-data message.")
 Time for **real** data!
 
 #### Populate your model:
@@ -221,7 +221,7 @@ Of course not, we need to parse the model to our component
 ```
 Recheck! Congratulations, you populated your first ember-ligth-table! It should look
 like this:
-[Table_3]( ./img//table_3.png "Initiated ember-light-table with content")
+![Table_3]( https://github.com/Stoiker/ember-light-table-hello-world/blob/master/img/table_3.png "Initiated ember-light-table with content")
 Great, but we are missing the images!
 
 #### Include an image column:
@@ -250,7 +250,7 @@ This new component can now be included in our table column list:
 ...
 ```
 Recheck your app and you should see:
-[Table_4]( ./img//table_4.png "Ember-light-table with content and images")
+![Table_4]( https://github.com/Stoiker/ember-light-table-hello-world/blob/master/img/table_4.png "Ember-light-table with content and images")
 
 :tada: We are pretty close to the [ember-light-table demo]("https://offirgolan.github.io/ember-light-table/") ! Good job!
 The only thing left to do is the detail view, when the user clicks an row.
@@ -291,7 +291,7 @@ The row variable contains all the data from the current element of the model, wh
 also includes stuff thats not shown in a column!
 
 Take a look at your app, click on a row and you will see the final result:
-[Table_5](./img//table_5.png "Ember-light-table with content and images and expandable rows")
+![Table_5](https://github.com/Stoiker/ember-light-table-hello-world/blob/master/img/table_5.png "Ember-light-table with content and images and expandable rows")
 
 You can also include your table into the table, by using the expanded row. Try it!
 
