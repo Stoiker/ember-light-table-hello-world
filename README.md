@@ -1,4 +1,4 @@
-A small *hello-world* introductionary tutorial for the [ember-light-table]((http://offirgolan.github.io/ember-light-table/) addon
+A small *hello-world* introductionary tutorial for the [ember-light-table](http://offirgolan.github.io/ember-light-table/) addon
 ## Introduction
 Ember-light-table is a great tool for creating nice tables in emberjs.
 Unfortunately people, myself included, seem to struggle at the beginning and a little
